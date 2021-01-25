@@ -21,7 +21,7 @@ $manifest = array(
     'published_date'            => '2021-01-25 21:30:39',
     'type'                      => 'module',
     'version'                   => '1.0',
-    'remove_tables'             => 'no',
+    'remove_tables'             => 'false',
 );
 
 
