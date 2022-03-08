@@ -6,11 +6,11 @@ $manifest = array(
         2 => 'ENT',
         3 => 'DEV'
     ),
-    'acceptable_sugar_versions' => array(
-        'regex_matches' => array(
-            0 => "^(\d+\.)?(\d+\.)?(\*|\d+)$"
-        ),
-    ),
+
+    'acceptable_sugar_versions' => [
+        'regex_matches' => ['7.*', '8.*', '9.*', '10.*', '11.*']
+    ],
+
     'readme'                    => '',
     'key'                       => 'job05171967',
     'author'                    => 'Kenneth Brill [ken.brill@gmail.com]',
@@ -18,9 +18,9 @@ $manifest = array(
     'icon'                      => '',
     'is_uninstallable'          => true,
     'name'                      => 'Job_Queue',
-    'published_date'            => '2021-01-25 21:30:39',
+    'published_date'            => '2022-03-01 08:17:31',
     'type'                      => 'module',
-    'version'                   => '1.0',
+    'version'                   => '1.2',
     'remove_tables'             => 'false',
 );
 
