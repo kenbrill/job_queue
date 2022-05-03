@@ -20,7 +20,7 @@ $manifest = array(
     'name'                      => 'Job_Queue',
     'published_date'            => '2021-01-25 21:30:39',
     'type'                      => 'module',
-    'version'                   => '1.0',
+    'version'                   => '1.0.1',
     'remove_tables'             => 'false',
 );
 
